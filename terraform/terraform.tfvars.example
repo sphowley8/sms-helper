@@ -1,0 +1,7 @@
+# Copy this file to terraform.tfvars and fill in your values.
+# terraform.tfvars is gitignored — never commit it.
+
+region            = "us-east-1"
+github_token      = "ghp_..."
+authorized_phone  = "+1..."     # your personal mobile number in E.164 format
+twilio_auth_token = "..."       # Twilio console → Account Info → Auth Token

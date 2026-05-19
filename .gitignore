@@ -1,0 +1,14 @@
+# Terraform state — never commit
+terraform/*.tfstate
+terraform/*.tfstate.backup
+terraform/.terraform/
+
+# Secrets — never commit
+terraform/terraform.tfvars
+
+# Build artifacts
+terraform/lambda.zip
+
+# Python
+__pycache__/
+*.pyc
